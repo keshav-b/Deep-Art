@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PREDICT</title>
+	<style type="text/css">
+		th{
+			text-align: center;
+			font-size: 40px;
+		}
+		td{
+			text-align: center;
+			padding: 25px;
+		}
+
+
+	</style>
+</head>
+<body>
+	<center><h1>DEEP ART</h1></center>
+	<hr><br><br><br>
+	<table style="width:100%">
+		<form action="#", method="POST", enctype="multipart/form-data">
+			<tr>
+				<th>Content Image</th>
+				<th>Target Image</th>
+				<th>Style Image</th> 
+			</tr>
+			<tr>
+				<td><img src="{{ content_image }}" alt="Content Image" width="300"></td>
+				<td><img src="{{ target_image }}" alt="Target Image" width="300"></td>
+				<td><img src="{{ style_image }}" alt="Style Image" width="300"></td> 
+			</tr>
+			<tr>
+				<td><input type="file" name="content_image"  id="content_image" size="10"></td>
+				<td></td>
+				<td><input type="file" name="style_image"  id="style_image" size="10"> </td> 
+			</tr>
+			<tr>
+				<td></td>
+				<td><button type="submit">UPLOAD</button></td>
+				<td></td>
+			</tr>
+		</form>
+	</table>
+	
+</body>
+</html>
