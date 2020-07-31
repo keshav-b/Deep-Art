@@ -1,6 +1,6 @@
 from flask import Flask, redirect, url_for, render_template, request
 import os
-#import style_transfer
+import style_transfer
 
 app = Flask(__name__)
 
