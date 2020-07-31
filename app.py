@@ -37,7 +37,7 @@ def predict():
 			s = style_image_path+style_image.filename
 			
 			
-			#style_transfer.train(content_image_path,style_image_path)
+			style_transfer.train(content_image_path,style_image_path)
 			
 			target = 'static/images/target.png'
 			
