@@ -3,7 +3,8 @@
 <p align="center">
   <img src="Images/sample.gif" alt="deep-art"></img>
 </p>
-The above image was generated with `num_epochs=5000`
+
+The above image was generated with `epochs=5000`
 
 
 ## Usage
